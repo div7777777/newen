@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    width: auto;
+    background: black;
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(profil.png);
+    background-position-y: 100%;
+    height: 300px;
+    width: auto;
+    border-radius: 0 0 50% 50%;
+    border: 4px solid orangered;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: orangered;
+    border-radius: 30px;
+    border: 4px solid white;
+  
+}
+.img{
+    animation: 2s infinite img;
+}
+@keyframes img{
+    50%{
+        opacity: 0.6;
+    }
+}
+
+/* menu */
+.adresse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 150px;
+    
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    box-shadow: inset 2px 2px 4em orangered;
+    height: 90px;
+    width: 110px;
+    border: 1.5px solid white;
+    border-radius: 50px;
+
+    
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+}
+.nom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: orangered;
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* social link */
+.contenair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    width: 300px;
+    border: 4px solid orangered;
+    border-radius: 20px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: none;
+    box-shadow: inset 1.5px 1.5px 3em whitesmoke;
+    background-size: 100px;
+    border-radius: 50px;
+    height: 180px;
+    width: 180px;
+}
+
+.menu{
+    overflow: hidden;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    border: 4px solid black;
+    background-image: url(profil.png);
+   animation: 10s infinite btn;
+}
+@keyframes btn{
+0%{
+    transform: translateX(0);
+}
+25%{
+    transform: translateX(-300px);
+}
+50%{
+    transform: translateX(-600px);
+}
+75%{
+    transform: translateX(-900px);
+}
+100%{
+    transform: translateX(-1200px);
+}
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    box-shadow: inset 2px 4px 1.5em orangered;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 7px solid orangered;
+    
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
